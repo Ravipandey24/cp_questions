@@ -9,5 +9,6 @@ def get_path(dic, val, path=''):
             print(path, '>', key)
         if isinstance(value, dict):
             get_path(value, val, path=path+' > '+key)
-        
+
 get_path(DictX, 'nothing')
+                    #print two paths as tow values are present.
